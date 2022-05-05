@@ -1,0 +1,73 @@
+FABRICANT(nom, adreça) clau: nom
+
+TREBALLA (nom_fabricant, nom_distribuidor) clau: nom_fabricant, nom_distribuidor
+
+	nom_fabricant REF FABRICANT (nom)
+	nom_distribuidor REF DISTRIBUIDOR (nom)
+
+TELEFON(numero, nom_fabricant, nom_distribuidor) clau: numero
+
+	nom_fabricant REF FABRICANT (nom)
+	nom_distribuidor REF DISTRIBUIDOR (nom)
+
+ALT(codi_moble)
+
+	codi_moble REF MOBLE (codi)
+
+BAIX(codi_moble)
+
+	codi_moble REF MOBLE (codi)
+
+PANELL(codi_moble)
+
+	codi_moble REF MOBLE (codi)
+
+ENCIMERA(codi_moble)
+
+	codi_moble REF MOBLE (codi)
+
+
+MOBLE(codi, linia, color, ample, alt, llarg, nom_fabricant, codi_cuina) clau: codi
+
+	nom_fabricant REF FABRICANT (nom)
+	codi_cuina REF CUINA (codi)
+
+MOBLE_ALT()
+
+
+
+MOBLE_BAIX(alçada)
+
+
+
+PANELL()
+
+
+
+ENCIMERA(tipus)
+
+
+
+DISTRIBUIDOR(nom, adreça) clau: nom
+
+
+
+CUINA(codi, nom_distribuidor, data) clau: codi
+
+	nom_distribuidor REF DISTRIBUIDOR
+	nom_distribuidor REF DISTRIBUIDOR
+MUNTA (codi_cuina, nif_muntador)
+
+	codi_cuina REF CUINA (codi)
+	nif_muntador REF MUNTADOR (nif)
+
+COMPRA (codi_cuina, nif_client) clau: codi_cuina, nif_client
+
+	codi_cuina REF CUINA (codi)
+	nif_client REF CLIENT (nif)
+
+CLIENT(nif, nom, adreça, telefon) clau: nif
+
+
+
+MUNTADOR(nif, nom, adreça, telefon, c_muntades) clau: nif 

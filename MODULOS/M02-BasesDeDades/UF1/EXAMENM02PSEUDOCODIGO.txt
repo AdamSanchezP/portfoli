@@ -1,0 +1,72 @@
+PROYECTO (Codigo, Nombre, Acronimo, Presupuesto, Prog I+D, fecha_i, fecha_f, Descripcion)
+
+
+ABARCA (codigo_proyecto, codigo_linea) clave: codigo_proyecto, codigo_linea
+
+	codigo_proyecto REF PROYECTO (codigo)
+	codigo_linea REF LINEA INV (codigo)
+
+TRABAJA (codigo_proyecto, fecha_i, fecha_f, codigo_profesores) clave: codigo_proyecto, fecha_i, fecha_f, codigo_profesores
+
+	codigo_proyecto REF PROYECTO (codigo)
+	fecha_i REF FECHA (Fecha_i)
+	fecha_f REF FECHA (Fecha_f)
+	codigo_profesores REF PROFESORES (codigo)
+
+PUBLICACION(Numero, Titulo, codigo_proyecto) clave: numero, codigo_proyecto
+
+	codigo_proyecto REF PROYECTO (codigo)
+
+CUBRE (codigo_publicacion, numero_publicacion, codigo_linea) clave: codigo_publicacion, numero_publicacion, codigo_linea
+
+
+	codigo_publicacion REF PUBLICACION (codigo_proyecto)
+	numero_publicacion REF PUBLICACION (numero)
+	codigo_linea REF LINEA (codigo)
+
+REVISTA (nombre, Editorial, Volumen, Pag_i, Pag_f, numero, numero_pubicacion, codigo_publicacion) clave: numero_pubicacion, codigo_publicacion
+
+
+numero_publicacion REF PUBLICACION (Numero)
+codigo_publicacion REF PUBLICACION (codigo_proyecto)
+
+CONGRESO(Editorial, Pais, Lugar, Fecha_i, Fecha_f, Tipo, Nombre, numero_pubicacion, codigo_publicacion) clave: numero_pubicacion, codigo_publicacion
+
+numero_publicacion REF PUBLICACION (Numero)
+codigo_publicacion REF PUBLICACION (codigo_proyecto)
+
+FECHA (Fecha_i, fecha_f) Clave: Fecha_i, fecha_f
+
+
+
+PROFESOR (Codigo, Nombre, Apellidos, Despacho) Clave: Codigo
+
+DOCTOR (codigo_profesor) 
+
+	codigo_profesor REF PROFESOR (codigo)
+	
+NO DOCTOR (codigo_profesor)
+
+	codigo_profesor REF PROFESOR (codigo)
+
+SUPERVISA (fecha_i, fecha_f)
+
+	fecha_i REF FECHA (fecha_i)
+	fecha_i REF FECHA (fecha_f)
+
+ASOCIADO (codigo_profesor, codigo_linea)
+
+	codigo_profesor REF PROFESOR (codigo)
+	codigo_linea REF LINEA INV (codigo)
+
+ESCRITO (numero_publicacion, codigo_publicacion, codigo_profesor) clave: numero_publicacion, codigo_publicacion, codigo_profesor
+
+	numero_publicacion REF PUBLICACION (numero)
+	codigo_publicacion REF PUBLICACION (codigo_proyecto)
+	codigo_profesor REF PROFESOR (codigo)
+
+LÍNEA INV (Codigo, Nombre, Descriptores) Clave: Codigo
+
+
+
+

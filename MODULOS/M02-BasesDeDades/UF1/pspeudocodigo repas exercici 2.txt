@@ -1,0 +1,25 @@
+FABRICA (telefonFabrica, adrecaFabrica, nomFabrica, codiFabrica) clau:codi_fabrica
+
+PRODUCTE (codiProducte, nomProducte,preuProducte, codi_fabrica) clau: codiProducte
+	codi_fabrica REF FABRICA (codiFabrica)
+DEMANA (codiComanda, codiProducte, quantitat) clau: codiComanda, codiProducte
+	codiComanda REF COMANDA (codiComanda)
+	codiProducte REF PRODUCTE (codiProducte)
+
+COMANDA (codiComanda, dataComanda, codiC) clau: codiComanda
+
+CLIENT (codiClient, nomClient, cifClient) clau: codiClient
+
+DATA (dataInici) clau: dataInici
+
+EMPLEAT (nomEmpleat, codiEmpleat, dniEmpleat) clau: codiEmpleat
+
+TREBALLA (codi_fabrica, dataInici, funcio, dataFinal, codiEmpleat) clau: dataInici, codiEmpleat
+	codiEmpleat REF EMPLEAT (codiEmpleat)
+	dataInici REF DATA (dataInici)
+
+MATERIAPRIMERA (nomMateria, codiMateria) clau: codiMateria
+
+PROVEIDOR (codiProveidor, telefonProveidor, adrecaProveidor, cognomProveidor, nomProveidor) clau: codiProveidor
+
+MAGATZEM (adrecaMagatzem, nomMagatzem, codiMagatzem) clau: codiMagatzem

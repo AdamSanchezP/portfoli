@@ -1,0 +1,55 @@
+CURS (codi, nom, data_inici) clau: codi
+
+AVALUACIO (nota, codi_avaluacio, dni_aprenent) clau: codi_prova, dni_aprenent
+
+	 codi_prova REF PROVA_AVALUACIO (codi)
+	dni_aprenent REF APRENENT (dni_operari)
+
+PROVA_AVALUACIO(codi, nom) clau :codi
+
+OPERARI(dni, nom nss, data_naixement) clau:dni
+
+ASSIGNA (hores, numero_area, dni_operari, codi_tasca) clau: numero_area, dni_operari, codi_tasca, codi_reparacio)
+
+	numero_area REF AREA (numero)	
+	dni_operari REF OPERARI (dni)
+	codi_tasca REF TASCA (codi)
+	codi_reparacio REF TASCA (codi_reparacio)
+
+APRENENT(data_inici, dni_operari, dni_especialista)
+	
+	dni_operari REF OPERARI (dni)
+	dni_especialista REF ESPECIALISTA (dni_operari)
+
+ESPECIALISTA(anys_experiencia, dni_operari)
+
+	dni_operari REF OPERARI (dni)
+
+AREA(numero, localitzacio, superficie) clau: numero
+
+TASCA(codi, nom, descripcio, durada, codi_reparacio) clau: codi, codi_reparacio
+
+	codi_reparacio REF REPARACIO (codi)
+UTILITZA (data_inici, data_final, codi_tasca, codi_reparacio, codi_eina) clau: codi_tasca, codi_reparacio, codi_eina 
+	
+	codi_reparacio REF TASCA (codi_reparacio)
+	codi_tasca REF TASCA (codi_tasca)	
+	codi_eina REF EINA (codi)
+
+EINA(codi, descripcio, pes) clau: codi
+
+LOCOMOTORA(codi, nom) clau: codi
+
+REPARACIO(codi, nom, durada, data_inici, codi_locomotora) clau: codi
+	
+	codi_locomotora REF LOCOMOTORA (codi)
+
+RECANVI(codi, descripcio, nom_proveidor) clau: codi
+	
+	nom_proveidor REF PROVEIDOR (codi)
+REQUEREIX (unitats, codi_reparacio) clau: codi_reparacio, nom_proveidor
+
+	codi_reparacio REF REPARACIO (codi)
+	nom_proveidor REF PROVEIDOR (nom)
+
+PROVEIDOR(nom) clau: nom
