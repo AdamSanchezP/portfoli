@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song lenght="6:20" anio="1978">
+    <CD title="Hot Cop">
+        <songs>
+            <song></song>
+        </songs>
+        <data dia="" mes="" any=""></data>
+    </CD>
+    <composers>
+        <composer>
+            <nombre>Hanry</nombre>
+            <apellidos>Beolo</apellidos>
+        </composer>
+    </composers>
+    <producers>
+        <producer>
+            <nombre>Jacques</nombre>
+            <apellidos>Morab</apellidos>
+        </producer>
+    </producers>
+    <publisher>PolyGram</publisher>
+    <Artists>
+        <artist>Village People</artist>
+    </Artists>
+</song>

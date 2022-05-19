@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horari>
+    <dilluns>M03, M02</dilluns>
+    <dimarts>M02, M01, M04</dimarts>
+    <dimecres>M03, M01</dimecres>
+    <dijous>TUT, M02, M01</dijous>
+    <divendres>M03, M04, M01</divendres>
+</horari>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coperaventura>
+    <infoparc>
+        <nom>Coper Aventura S.A.</nom>
+        <adreça>Passeig de la sort, 1.</adreça>
+        <ciutat> Can Puces</ciutat>
+        <pais>Espanya</pais>
+        <lloc_web>http://www.coperaventura.com</lloc_web>
+    </infoparc>
+    <horariparc>
+        <mes nom="Juliol">
+            <horariobertura>
+                10:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horariobertura>
+            <horaritancament>
+                22:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horaritancament>
+        </mes>
+        <mes nom="Agost">
+            <horariobertura>
+                10:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horariobertura>
+            <horaritancament>
+                22:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horaritancament>
+        </mes>
+        <mes nom="Septembre">
+            <horariobertura>
+                10:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horariobertura>
+            <horaritancament>
+                22:00
+                <periode inici="14" fi="30">
+                    <diasetmana>Dissabte</diasetmana>
+                </periode>
+
+            </horaritancament>
+            <horariobertura>
+                10:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horariobertura>
+            <horaritancament>
+                20:00
+                <periode inici="14" fi="30">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horaritancament>
+
+        </mes>
+        <mes nom="Octubre">
+            <horariobertura>
+                10:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horariobertura>
+            <horaritancament>
+                20:00
+                <periode inici="1" fi="10">
+                    <diasetmana>Dilluns</diasetmana>
+                    <diasetmana>Dimarts</diasetmana>
+                    <diasetmana>Dimecres</diasetmana>
+                    <diasetmana>Dijous</diasetmana>
+                    <diasetmana>Divendres</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horaritancament>
+            <horaritancament>
+                22:00
+                <periode inici="11" fi="11">
+                    <diasetmana>diumenge</diasetmana>
+                </periode>
+            </horaritancament>
+            <horaritancament>
+                22:00
+                <periode inici="1" fi="31">
+                    <diasetmana>dissabte</diasetmana>
+                </periode>
+            </horaritancament>
+        </mes>
+        <mes nom="Novembre">
+            <horariobertura>
+                10:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+            </horariobertura>
+            <horaritancament>
+                18:00
+                <periode inici="1" fi="31">
+                    <diasetmana>Dissabte</diasetmana>
+                    <diasetmana>Diumenge</diasetmana>
+                </periode>
+                <horariobertura>
+                    10:00
+                    <periode inici="7" fi="7">
+                        <diasetmana>Dissabte</diasetmana>
+                    </periode>
+                </horariobertura>
+                <horaritancament>
+                    22:00
+                    <periode inici="7" fi="7">
+                        <diasetmana>Dissabte</diasetmana>
+                    </periode>
+                    <horariobertura>
+                        10:00
+                        <periode inici="14" fi="14">
+                            <diasetmana>Dissabte</diasetmana>
+                        </periode>
+                    </horariobertura>
+                    <horaritancament>
+                        22:00
+                        <periode inici="14" fi="14">
+                            <diasetmana>Dissabte</diasetmana>
+                        </periode>
+                    </horaritancament>
+            </horaritancament>
+            </horaritancament>
+        </mes>
+
+    </horariparc>
+    <atraccions>
+        <eso></eso>
+        <batxillerat></batxillerat>
+        <CFGM></CFGM>
+        <CFGS></CFGS>
+        <profes></profes>
+    </atraccions>
+</coperaventura>

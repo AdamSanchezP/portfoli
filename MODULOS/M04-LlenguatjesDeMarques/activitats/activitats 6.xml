@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taula>
+    <fruita1>
+        <nom>Litchi</nom>
+        <varietat>Kway may pink</varietat>
+        <ciutat_origen>Filipines</ciutat_origen>
+        <Color_fruita>Rosa</Color_fruita>
+        <maduració>Agost</maduració>
+        <Reg>Diari</Reg>
+        <preu_kg>3,5 €</preu_kg>
+    </fruita1>
+    <fruita2>
+        <nom>Longan</nom>
+        <varietat>Champoo</varietat>
+        <ciutat_origen>Xina</ciutat_origen>
+        <Color_fruita>Marró</Color_fruita>
+        <maduració>Octubre</maduració>
+        <Reg>Diari</Reg>
+        <preu_kg>2,5 €</preu_kg>
+    </fruita2>
+    <fruita3>
+        <nom>Litchi</nom>
+        <varietat>Mauritius</varietat>
+        <ciutat_origen>Florida</ciutat_origen>
+        <Color_fruita>Vermell</Color_fruita>
+        <maduració>Agost</maduració>
+        <Reg>Diari</Reg>
+        <preu_kg>3 €</preu_kg>
+    </fruita3>
+
+</taula>

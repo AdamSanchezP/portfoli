@@ -1,0 +1,22 @@
+﻿
+<?xml version="1.0" ?>
+<receptes>
+    <recepta>
+        <nom>Ous ferrats
+        <ingredients>
+            <ingredient>Ous</ingredient>
+            <ingredient>Oli</ingredient>
+            <ingredient>Sal</ingredient>
+        </ingredients> 
+        <preparacio passos="5">
+            <pas ordre="1"/>Posa oli a la paella i escalfa'l</pas>
+            <pas ordre="2"/>Posa l'ou</pas>
+            <pas ordre="3"/>Posa oli calent per sobre</pas>
+            <pas ordre="4"/>Posa sal</pas>
+            <pas ordre="5"/>Quan estigui al punt, retira'l</pas>
+        </preparacio passos="5">
+        </nom>
+      </recepta>
+      <recepta>
+      </recepta>
+</receptes>
